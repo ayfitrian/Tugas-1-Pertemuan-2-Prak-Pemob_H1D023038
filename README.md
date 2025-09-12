@@ -3,6 +3,10 @@ Nama : Ayu Fitrianingsih
 NIM : H1D023038
 Shift : E/B
 
+# Dokumentasi
+<img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/749ee346-f86c-4c49-a8db-adf02a5c97e4" />
+
+
 # Aplikasi Tugas 1 Pemrograman Mobile
 
 Proyek ini dibuat sebagai bagian dari Tugas 1 mata kuliah **Pemrograman Mobile**.  
