@@ -31,7 +31,55 @@ Aplikasi ini menampilkan halaman sederhana dengan gambar, teks sambutan, deskrip
 - `TextView (tv_description)` → Menampilkan deskripsi informasi.
 - `MaterialButton (btn_to_page2)` → Tombol untuk menuju halaman kedua.
 
+# Tugas-2-Pertemuan-3-Prak-Pemob_H1D023038
+
+# Dokumentasi
+
+# 📱 IF Unsoed Mobile  
+
+Aplikasi Android sederhana untuk menampilkan **profil lulusan Informatika Unsoed** serta menyediakan navigasi cepat ke kontak penting.  
+
+## ✨ Fitur Utama
+- **Halaman Utama (MainActivity)**  
+  - Tombol untuk menuju halaman profil lulusan.  
+- **Halaman Profil (Halaman2Activity)**  
+  - Menampilkan foto gedung & logo Unsoed.  
+  - CardView berisi deskripsi singkat profil lulusan.  
+  - Menu kontak dengan ikon & teks (telepon, email, lokasi, Instagram).  
+  - Tombol **Kembali** untuk menutup halaman.  
+- **Integrasi Intent Android**  
+  - 📞 Dialer → buka aplikasi telepon.  
+  - 📧 Email → buka aplikasi email dengan alamat tujuan.  
+  - 📍 Google Maps → buka lokasi Unsoed langsung di Maps.  
+  - 📸 Instagram → buka akun himpunan via browser/Instagram app.  
+
+---
+
+## 🏗️ Struktur Proyek
+- **Activity**
+  - `MainActivity.kt` → navigasi awal.  
+  - `Halaman2Activity.kt` → halaman profil + handler klik menu.  
+- **Layout**
+  - `activity_main.xml` → halaman utama.  
+  - `activity_halaman2.xml` → halaman profil lulusan + tombol kembali.  
+  - `layout_menu.xml` → komponen reusable (ikon + teks) untuk menu kontak.  
+- **Drawable**  
+  - Ikon: `ic_phone`, `ic_email`, `ic_location`, `ic_himpunan`.  
+  - Gambar: `teknik_unsoed_2`, `lambang_unsoed`.  
+
+---
+
+## 🖼️ Tampilan
+Halaman profil terdiri dari:  
+- Header gambar gedung dan logo Unsoed.  
+- Judul **Profil Lulusan**.  
+- Card berisi deskripsi singkat.  
+- Menu kontak (telepon, email, alamat, Instagram).  
+- Tombol **Kembali** di bagian bawah.
+
+
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
    ```bash
    git clone https://github.com/ayfitrian/Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038.git
+   
