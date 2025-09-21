@@ -1,3 +1,5 @@
+# PRAKTIKUM PEMROGRAMAN MOBILE
+
 # Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038
 Nama : Ayu Fitrianingsih
 NIM : H1D023038
@@ -34,6 +36,7 @@ Aplikasi ini menampilkan halaman sederhana dengan gambar, teks sambutan, deskrip
 # Tugas-2-Pertemuan-3-Prak-Pemob_H1D023038
 
 # Dokumentasi
+[Klik untuk menonton video] (videos/demo.mp4)
 
 # 📱 IF Unsoed Mobile  
 
