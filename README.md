@@ -36,8 +36,8 @@ Aplikasi ini menampilkan halaman sederhana dengan gambar, teks sambutan, deskrip
 # Tugas-2-Pertemuan-3-Prak-Pemob_H1D023038
 
 # Dokumentasi
-Klik untuk melihat demo: [Download Video](app/videos/demo.mp4)
 
+Klik untuk melihat demo: [Download Video](https://github.com/ayfitrian/Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038/raw/main/app/videos/demo.mp4)
 
 # 📱 IF Unsoed Mobile  
 
