@@ -37,7 +37,7 @@ Aplikasi ini menampilkan halaman sederhana dengan gambar, teks sambutan, deskrip
 
 # Dokumentasi
 
-Klik untuk melihat demo: [Download Video](https://github.com/ayfitrian/Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038/raw/main/app/videos/demo.mp4)
+Klik untuk melihat demo: [Download Video](https://github.com/ayfitrian/Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038/raw/main/app/videos/demo1.mp4)
 
 # 📱 IF Unsoed Mobile  
 
@@ -80,6 +80,55 @@ Halaman profil terdiri dari:
 - Card berisi deskripsi singkat.  
 - Menu kontak (telepon, email, alamat, Instagram).  
 - Tombol **Kembali** di bagian bawah.
+
+# Tugas-3-Pertemuan-4-Prak-Pemob_H1D023038
+
+# Dokumentasi
+
+Klik untuk melihat demo: [Download Video](https://github.com/ayfitrian/Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038/raw/main/app/videos/demo2.mp4)
+
+### 📌 Deskripsi  
+Pada praktikum ini dipelajari penerapan **arsitektur MVVM (Model–View–ViewModel)** dan **Networking dengan Retrofit** di Android. Tujuan utama adalah membuat aplikasi yang dapat mengambil data dari API publik (OpenLibrary) lalu menampilkannya ke pengguna dalam bentuk daftar buku.  
+
+---
+
+### 🏗️ Materi Utama  
+- Implementasi library (Retrofit & Gson Converter)  
+- Penerapan arsitektur MVVM  
+- Networking (request ke API dan parsing JSON)  
+
+---
+
+### 📖 Penjelasan Praktikum  
+
+1. **Implementasi Library**  
+   Menggunakan Retrofit untuk request HTTP dan Gson Converter untuk parsing JSON. Ditambahkan juga `viewmodel-ktx` agar integrasi ViewModel lebih mudah.  
+
+2. **Arsitektur MVVM**  
+   - **Model** → memetakan data dari API ke dalam data class (misalnya `SearchResponse` dan `BookDoc`).  
+   - **ViewModel** → penghubung antara Model dan View, berisi logika bisnis dan mengelola data menggunakan LiveData.  
+   - **View** → menampilkan data melalui Activity/Fragment dengan mengamati perubahan data dari ViewModel.  
+
+3. **Networking dengan Retrofit**  
+   - Permission `INTERNET` ditambahkan pada `AndroidManifest.xml`.  
+   - `Constants.kt` dibuat untuk menyimpan `BASE_URL`.  
+   - Interface `OpenLibraryApi` mendefinisikan endpoint request.  
+   - `RetrofitInstance` digunakan untuk inisialisasi Retrofit.  
+   - Data buku diambil dengan query tertentu, misalnya `"kotlin programming"`.  
+
+4. **Integrasi View dengan RecyclerView**  
+   - `DaftarBukuActivity` sebagai halaman utama.  
+   - `activity_daftar_buku.xml` berisi RecyclerView.  
+   - `list_buku.xml` sebagai layout item untuk daftar buku.  
+   - `BookAdapter` sebagai penghubung data buku ke RecyclerView.  
+
+5. **LogCat untuk Debugging**  
+   Menggunakan `Log.d()` dan `Log.e()` untuk memantau eksekusi aplikasi, melacak error, dan memastikan request API berjalan dengan benar.  
+
+6. **Hasil Akhir**  
+   - Aplikasi berhasil menampilkan daftar buku berdasarkan kata kunci pencarian.  
+   - Data ditampilkan secara **dinamis** melalui RecyclerView.  
+   - Perubahan data otomatis ter-update berkat penggunaan LiveData & ViewModel.  
 
 
 ## 🚀 Cara Menjalankan
