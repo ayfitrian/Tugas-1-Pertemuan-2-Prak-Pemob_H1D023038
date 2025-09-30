@@ -128,8 +128,42 @@ Pada praktikum ini dipelajari penerapan **arsitektur MVVM (Model–View–ViewMo
 6. **Hasil Akhir**  
    - Aplikasi berhasil menampilkan daftar buku berdasarkan kata kunci pencarian.  
    - Data ditampilkan secara **dinamis** melalui RecyclerView.  
-   - Perubahan data otomatis ter-update berkat penggunaan LiveData & ViewModel.  
+   - Perubahan data otomatis ter-update berkat penggunaan LiveData & ViewModel.
+     
+# Tugas-4-Pertemuan-5-Prak-Pemob_H1D023038
 
+# Dokumentasi
+
+Klik untuk melihat demo: [Download Video](https://github.com/ayfitrian/Tugas-1-Pertemuan-2-Prak-Pemob_H1D023038/raw/main/app/videos/demo3.mp4)
+
+# 📱 IF Unsoed Mobile  
+
+### Deskripsi
+Pada praktikum ini dipelajari salah satu komponen penting dalam pengembangan aplikasi Android, yaitu **Fragment**. Fragment merupakan bagian dari antarmuka pengguna (UI) yang berjalan di dalam sebuah Activity dan dapat digunakan kembali pada beberapa activity. Tidak seperti Activity yang dapat berdiri sendiri, fragment harus ditempatkan di dalam activity. Dengan fragment, antarmuka aplikasi menjadi lebih fleksibel, dinamis, dan mudah dikelola.
+
+### Konsep Dasar
+Fragment terbagi menjadi beberapa jenis, yaitu:
+1. **Fragment Standar** → digunakan sebagai bagian dari layout activity, misalnya untuk menampilkan daftar item atau detail konten.  
+2. **DialogFragment** → ditampilkan dalam bentuk pop-up dialog di atas activity. Biasanya dipakai untuk menampilkan pesan, form input, atau konfirmasi.  
+3. **BottomSheetDialogFragment** → variasi dialog fragment yang muncul dari bawah layar dalam bentuk bottom sheet. Umumnya digunakan untuk menampilkan detail tambahan tanpa berpindah layar.  
+
+### Tujuan Praktikum
+- Memahami bagaimana fragment bekerja dalam siklus hidup (lifecycle) Android.  
+- Membuat **BottomSheetDialogFragment** untuk menampilkan detail data buku.  
+- Menghubungkan **Activity** dengan **Fragment** melalui mekanisme event handling.  
+- Memanfaatkan library pihak ketiga (**Glide**) untuk memuat gambar dari URL secara efisien.  
+
+### Ringkasan Materi
+- **Import Drawable**: menambahkan aset gambar ke dalam proyek.  
+- **Data Class BookDoc**: dimodifikasi agar mendukung atribut `coverId` untuk menampilkan cover buku dari API.  
+- **Custom Drawable & Style**: dibuat menggunakan XML agar tampilan aplikasi lebih konsisten dan fleksibel.  
+- **Fragment Baru**: dibuat menggunakan `BottomSheetDialogFragment` sebagai wadah detail buku.  
+- **Modifikasi Layout dan Fragment**: dilakukan pada `fragment_book_detail.xml` dan `BookDetailFragment.kt` agar menampilkan data sesuai kebutuhan.  
+- **Library Glide**: digunakan untuk memuat gambar cover buku dari API secara otomatis dengan caching.  
+- **Integrasi**: fragment dihubungkan dengan daftar buku menggunakan adapter dan event handling. Saat item daftar diklik, detail buku akan muncul dalam bottom sheet.  
+
+### Hasil Akhir
+Setelah praktikum selesai, aplikasi mampu menampilkan daftar buku, dan ketika salah satu item dipilih, detail buku ditampilkan dalam bentuk **BottomSheetDialogFragment** dengan informasi judul, penulis, tahun terbit, dan cover buku.  
 
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
